@@ -1,0 +1,32 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answers-container{
+    p{  
+        font-size: 30px;
+        color: #ffb4a2;
+    }
+
+    p:nth-child(2){
+        
+        color: #b5838d;
+        margin-bottom: 80px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: #023e8a;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+}
